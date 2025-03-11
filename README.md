@@ -1,0 +1,11 @@
+### Run these from the CLI
+- sudo systemctl start postgresql
+    - CREATE DATABASE mydb;
+    - CREATE USER myuser WITH ENCRYPTED PASSWORD 'mypassword';
+    - GRANT ALL PRIVILEGES ON DATABASE mydb TO myuser;
+    - sudo -u postgres psql
+    - ALTER USER myuser CREATEDB;
+    - \q
+- docker-compose up -d
+- npm install @nestjs/microservices @nestjs/config @prisma/client prisma kafkajs
+- source ~/.bashrc
