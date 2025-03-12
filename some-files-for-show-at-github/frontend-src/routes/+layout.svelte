@@ -1,5 +1,7 @@
-<script lang="ts">
-	import '../app.css';
+<script>
+  import '../app.css';
 </script>
 
-<slot />
+<div style="padding: 1rem; margin: 1rem;">
+  <slot />
+</div>

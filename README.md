@@ -7,5 +7,17 @@
     - ALTER USER myuser CREATEDB;
     - \q
 - docker-compose up -d
-- npm install @nestjs/microservices @nestjs/config @prisma/client prisma kafkajs
 - source ~/.bashrc
+- npm install @nestjs/microservices @nestjs/config @prisma/client prisma kafkajs
+    - npm run start:dev
+- npx sv create frontend
+    - cd frontend
+    - npm install
+    - touch src/app.css
+    - npm install -D tailwindcss@^3.0.0 postcss autoprefixer
+    - npx tailwindcss init tailwind.config.cjs -p
+    - npm list tailwindcss
+    - npx shadcn-svelte@next init
+    - npx shadcn-svelte@next add button
+    - npx shadcn-svelte@next add input
+    - npm run dev

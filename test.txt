@@ -1,5 +1,7 @@
+rm -rf some-files-for-show-at-github/
 cp -r backend/src/* some-files-for-show-at-github/backend-src/
 cp -r frontend/src/* some-files-for-show-at-github/frontend-src/
+rm -rf test-sveltekit
 
 
 
